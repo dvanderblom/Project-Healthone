@@ -18,23 +18,13 @@ switch ($params[1]) {
             $name = getCategoryName($categoryId);
         
             if (isset($_GET['product_id'])) {
-                //$productId = $_GET['product_id'];
-                //$product = getProduct($productId);
-                // TOFIX $titleSuffix = ' | ' . $product->name;
-                // if(isset($_POST['name']) && isset($_POST['review'])) {
-                //     saveReview($_POST['name'],$_POST['review']);
-                //     $reviews=getReviews($productId);
-                // }
-                // TODO Zorg dat je hier de product pagina laat zien
                 include_once "../Templates/product.php";
 
             } else {
-                // TODO Zorg dat je hier alle producten laat zien van een categorie
                 include_once "../Templates/products.php";
             }
            
         } else {
-            // TODO Toon de categorieen 
             include_once "../Templates/categories.php";
         }
         break;
