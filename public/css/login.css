@@ -1,0 +1,29 @@
+input {
+  border: 1px solid lightgray;
+  height: 40px;
+  width: 600px;
+
+  border-radius: 5px;
+  padding-left: 3px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+  margin: 0 0 -20px 0;
+}
+
+i {
+  position: absolute;
+  bottom: 17px;
+  left: 685px;
+  cursor: pointer;
+  user-select: none;
+}

@@ -1,0 +1,54 @@
+.button {
+  border-radius: 3px; 
+  display: inline-block;
+  background-color: purple; 
+  margin-left: 486px;
+  color: white; 
+  border: none; 
+  height: 40px;
+  width: 150px;
+}    
+
+textarea {
+  width: 1295px;
+  height: 80px;
+  border: 2px solid lightgray;
+  border-radius: 3px;
+  padding-left: 5px;
+  margin-left: -11px;
+  margin-bottom: -15px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.stars {
+  width: 1296px;
+  height: 40px;
+}
+
+.input {
+  width: 645px;
+  height: 40px;
+  color: gray;
+}
+
+input {
+  border: 2px solid lightgray;
+  border-radius: 3px;
+  padding-left: 5px;
+  margin-left: -11px;
+}
+
+input:focus {
+  outline: none;
+}
+
+h4 {
+  margin-left: -12px;
+}
+
+label {
+  margin-left: -10px;
+}

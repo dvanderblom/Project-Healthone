@@ -1,0 +1,32 @@
+input {
+  border: 1px solid lightgray;
+  height: 40px;
+  width: 600px;
+
+  border-radius: 5px;
+  padding-left: 3px;
+}
+
+input:focus {
+  outline: none;
+}
+
+form > button {
+  height: 40px;
+  width: 150px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 5px;
+}
+
+i {
+  position: absolute;
+  bottom: 15px;
+  left: 685px;
+  cursor: pointer;
+  user-select: none;
+}
+
+label {
+  margin-left: 3px;
+}
